@@ -1,0 +1,110 @@
+<html>
+
+<head>
+    <title>
+        css Float
+    </title>
+    <style>
+        .item1 {
+            background-color: aqua;
+            width: 300px;
+            padding: 20px;
+            float: left;
+            /* border-style: solid;
+                border-color: green;
+                border-width: 10px; */
+            /* border:solid green 10px ; */
+            border-radius: 30px;
+            border-top-style: dotted;
+            border-left-style: solid;
+            border-right-style: dashed;
+            border-bottom-style: double;
+        }
+
+        #head {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+        }
+
+        .item2 {
+            background-color: aquamarine;
+            width: 300px;
+            padding: 20px;
+            float: right;
+            margin-right: 200px;
+        }
+        ul{
+            list-style: none;
+            background-color: wheat;
+            padding: 20px;
+        }
+        ul li{
+            display: inline;
+            padding: 20px;
+        }
+        ul li a{
+           color: ;
+        }
+        ul li:hover{
+            background-color: aquamarine;
+            color: blue;
+        }
+        ul li:active{
+            background-color: violet;
+            color: black;
+        }
+        span{
+            display: none;
+            position: absolute;
+        }
+        #data:hover span{
+            display: block;
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+    <ul>
+    <li>
+        <a href="">Home</a>
+    </li>
+    <li>
+        <a href="">About</a>
+    </li>
+    <li>
+        <a href="">Contact</a>
+    </li>
+    <li id="data">Courses
+        <span>
+            <p>Front End</p>
+            <p>Backend</p>
+            <p>Database</p>
+        </span>
+    </li>
+    <li>Services</li>
+    </ul>
+
+
+
+    <div class="item1">
+        <h3 id="head">HTML</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quam voluptatem nihil quis possimus
+            voluptatum sunt expedita reprehenderit repudiandae molestiae.</p>
+        <button>Read More</button>
+    </div>
+
+
+    <div class="item2">
+        <h3>CSS</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, exercitationem earum? Eos enim quia
+            placeat, nostrum impedit sit? Exercitationem, assumenda?</p>
+        <button>Read More</button>
+    </div>
+
+</body>
+
+</html>
